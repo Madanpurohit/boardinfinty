@@ -1,0 +1,33 @@
+*{ margin: 0; padding: 0; box-sizing: border-box;}
+html {
+  height: 100%;
+}
+body {
+  background-color: #b4cab9;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: bolder;
+  color: azure;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: linear-gradient(#14301c, #5e0619);
+}
+
+form {
+  margin: 200px 200px 0px 0px;
+}
+label{
+  display: inline-block;
+  clear: left;
+  width: 250px;
+  text-align: right;
+}
+input {
+  margin-left: 20px;
+}
+button {
+  display: inline-block;
+  margin-left: 100px;
+}
+a {
+  color: #00B7FF;
+}

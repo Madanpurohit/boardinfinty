@@ -1,0 +1,23 @@
+extends layout
+
+block content
+  h1 Board Infinity Assignment
+  br
+  form(action="/add", method="post")
+        div
+            label(for = "taskName") Task Name : 
+            input(type="text", name = "taskName" placeholder="Enter Task Name" required)
+         br
+        div
+            label(for = "taskDescription") Task Description : 
+            input(type="text", name="taskDescription" placeholder="Enter Task Description")
+         br
+        div
+            label(for = "creater") Creater : 
+            input(type="text", name="creater" placeholder="Enter Task Creater" required)
+         br
+        div
+            label(for = "duration") Duration (in Minutes): 
+            input(type="text", name="duration" placeholder="Enter Duration" required)
+         br
+        button(type = "submit") Submit
